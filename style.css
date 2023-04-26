@@ -47,14 +47,17 @@ form input {
   display: flex;
   justify-content: space-between;
 }
+
 #nome-e-sobrenome {
   display: flex;
   flex-direction: row;
 }
+
 #evaluation-form input {
   width: 30%;
   margin: 20px;
 }
+
 #email-e-casa {
   display: flex;
 }
