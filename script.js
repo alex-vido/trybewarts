@@ -20,3 +20,10 @@ checkbox.addEventListener('click', () => {
     botaoSubmit.disabled = true;
   }
 });
+const span = document.getElementById('counter');
+const textarea = document.getElementById('textarea');
+span.innerText = '500';
+const counter = () => {
+  span.innerText = `${500 - textarea.value.length}`;
+};
+textarea.addEventListener('keyup', counter);
